@@ -133,7 +133,14 @@ These are entirely made up and safe to use for demos.
 
 ## After a Reboot
 
-Streamlit and Ollama do not auto-start. Run these before opening the app:
+Streamlit and Ollama do not auto-start. Use the launcher script to start both in one command:
+
+```powershell
+cd C:\Users\syrio\CompanyAnalyzer
+.\start.ps1
+```
+
+Or manually if you prefer:
 
 ```powershell
 ollama serve                          # only needed for Local mode
